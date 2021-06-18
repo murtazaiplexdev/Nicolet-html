@@ -2127,5 +2127,14 @@ footer {
         padding: 80px 0;
         max-width: 100%;
     }
+    /* order page css starts here */
+    .order-wrapper h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .order-wrapper {
+        padding: 190px 0 40px 0;
+    }
+    /* order page css end here */
 }
 /* media queries width wise ends here */
