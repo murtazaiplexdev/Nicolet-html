@@ -2100,7 +2100,14 @@ footer {
     }
     /* order page css ends here */
 }
-@media(max-width:575px){}
+@media(max-width:575px){
+    /* order page css starts here */
+    .product-wrapper .product-inner {
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+    /* order page css ends her */
+}
 @media(max-width:475px){
     .box-inner {
         padding: 250px 0 50px 0;
