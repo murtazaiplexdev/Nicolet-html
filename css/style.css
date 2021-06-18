@@ -2065,6 +2065,12 @@ footer {
         font-size: 30px;
         line-height: 36px;
     }
+    /* order page css starts here */
+    .product-wrapper .product-inner {
+        width: 230px;
+        margin-bottom: 50px;
+    }
+    /* order page css ends here */
 }
 @media(max-width:767px){
     .octane-inner {
@@ -2085,6 +2091,14 @@ footer {
         padding: 15px;
         flex: unset;
     }
+    /* order page css starts here */
+    .product-wrapper {
+        flex-wrap: wrap;
+    }
+    .product-wrapper .product-inner {
+        width: 40%;
+    }
+    /* order page css ends here */
 }
 @media(max-width:575px){}
 @media(max-width:475px){
