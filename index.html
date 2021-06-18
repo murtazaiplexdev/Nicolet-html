@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolet</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet"
+        href="https://cdn.shopify.com/s/files/1/0571/1953/9398/t/2/assets/theme.scss.css?v=4146919259965634774">-->
+    <link rel="stylesheet" href="https://use.typekit.net/yew4ppx.css">
+    <link href="css/vendor.min.css?v=1631323766942314957"
+        rel="stylesheet" type="text/css" media="all" />
+    <link href="css/theme-styles.scss.css?v=7941311907296463"
+        rel="stylesheet" type="text/css" media="all" />
+    <link
+        href="css/theme-styles-responsive.scss.css?v=4366293472523403472"
+        rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+    <nav>
+        <div class="top-menu">
+            <div class="container">
+                <a href="" class="nicolet-img activelogo"><img class="img-fluid" src="images/nicolet-logo.svg"
+                        alt="Nicolet"></a>
+                <a href="https://www.crotonwatch.com" target="_blank" class="croton-img"><img class="img-fluid" src="images/croton-logo.svg" alt="Croton"></a>
+            </div>
+        </div>
+        <div class="main-menu">
+            <div class="container">
+                <ul class="parent">
+                    <li><a href="">Home</a></li>
+                    <li class="dropdownnav-item"><a href="">watches</a>
+                        <ul class="child">
+                            <li>
+                                <div class="mega-dropdown">
+                                    <div class="dropdown-left">
+                                        <div class="dropdown-item">
+                                            <a href="">
+                                                <span>The triumph collection</span>
+                                                <span>learn more<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <a href="">
+                                                <span>The mozzafiato collection</span>
+                                                <span>learn more<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <a href="">
+                                                <span>The Scintillare collection</span>
+                                                <span>learn more<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-right">
+                                        <img class="img-fluid" src="images/megamenu-img1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdownnav-item"><a href="">About us</a>
+                        <ul class="child">
+                            <li>
+                                <div class="mega-dropdown">
+                                    <div class="dropdown-left">
+                                        <div class="dropdown-item">
+                                            <a href="">
+                                                <span>our journe</span>
+                                                <span>learn more<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <a href="">
+                                                <span>it all began in 1886</span>
+                                                <span>learn more<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <a href="">
+                                                <span>past collections</span>
+                                                <span>learn more<i class="fa fa-angle-right"
+                                                        aria-hidden="true"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="dropdown-right">
+                                        <img class="img-fluid" src="images/megamenu-img2.jpg" alt="">
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="">Support</a></li>
+                </ul>
+                <div class="mainleft-search">
+                    <form action="/search" method="get">
+                        <input class="search" id="searchleft" type="search" name="q" placeholder="Search">
+                        <label class="button searchbutton" for="searchleft"><span class="mglass"><img class="img-fluid"
+                                    src="images/search-icon.png" alt="">
+                            </span></label>
+                    </form>
+                    <a href=""><img src="images/bag.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="hero-wrap">
+        <div class="hero-inner">
+            <div class="video-wrap">
+                <video autoplay loop width="100%" id="heroVideo">
+                    <source src="images/hero-bg.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="newcollection-wrap">
+                <div class="container">
+                    <span>New Collection</span>
+                    <h1>Nicolet Triumph</h1>
+                    <a class="action-btn" href="">Discover<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.6809 4.11845C11.4313 3.86875 11.0353 3.87859 10.7975 4.14109C10.5594 4.40359 10.5694 4.819 10.8191 5.06903L15.6134 9.84357H3.125C2.78 9.84357 2.5 10.1376 2.5 10.4998C2.5 10.8621 2.78 11.1561 3.125 11.1561H15.5934L10.8191 15.9309C10.5691 16.181 10.5594 16.5964 10.7975 16.8589C10.9203 16.9941 11.085 17.0623 11.25 17.0623C11.405 17.0623 11.56 17.0023 11.6809 16.8812L17.1337 11.4278C17.37 11.18 17.5 10.8506 17.5 10.4998C17.5 10.1491 17.37 9.81962 17.1228 9.56073L11.6809 4.11845Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <button class="playpause-video" id="playPauseVideo" onclick="myFunction()"></button>
+                </div>
+            </div>
+        </div>
+        <div class="buttonanimate-down">
+            <div class="border-arrow"></div>
+            <a href="" class="scroll-next">
+                <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M17.3813 11.7991C17.631 11.5494 17.6212 11.1535 17.3587 10.9157C17.0962 10.6775 16.6808 10.6875 16.4307 10.9372L11.6562 15.7316L11.6562 3.24316C11.6562 2.89816 11.3622 2.61816 10.9999 2.61816C10.6377 2.61816 10.3437 2.89816 10.3437 3.24316L10.3437 15.7116L5.56881 10.9372C5.31878 10.6872 4.90337 10.6775 4.64087 10.9157C4.50568 11.0385 4.43743 11.2032 4.43743 11.3682C4.43743 11.5232 4.49748 11.6782 4.61856 11.7991L10.072 17.2519C10.3197 17.4882 10.6492 17.6182 10.9999 17.6182C11.3507 17.6182 11.6801 17.4882 11.939 17.241L17.3813 11.7991Z"
+                        fill="white" />
+                </svg>
+
+            </a>
+        </div>
+    </section>
+    <section class="wristwatch-wrap fullsize-background animate-watches">
+        <div class="container">
+            <div class="wristwatch-inner row">
+                <div class="wristwatch-item1 col-lg-3 text-center">
+                    <img class="img-fluid" src="images/wristwatch-item1.png" alt="wristwatch-item1">
+                </div>
+                <div class="wristwatch-item2 col-lg-5 text-center">
+                    <img class="img-fluid" src="images/wristwatch-item2.png" alt="wristwatch-item1">
+                    <div class="explore-wrap">
+                        <!-- <div class="border-arrow"></div> -->
+                        <div class="buttonanimate-down collection-head">
+                            <h2>explore Our Collections</h2>
+                            <div class="border-arrow"></div>
+                        <a href="" class="scroll-next">
+                            <svg width="22" height="21" viewBox="0 0 22 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.3813 11.857C17.631 11.6073 17.6212 11.2113 17.3587 10.9735C17.0962 10.7354 16.6808 10.7454 16.4307 10.9951L11.6562 15.7895L11.6562 3.30103C11.6562 2.95603 11.3622 2.67603 10.9999 2.67603C10.6377 2.67603 10.3437 2.95603 10.3437 3.30103L10.3437 15.7695L5.56881 10.9951C5.31878 10.7451 4.90337 10.7354 4.64087 10.9735C4.50568 11.0963 4.43743 11.261 4.43743 11.426C4.43743 11.581 4.49748 11.736 4.61856 11.857L10.072 17.3098C10.3197 17.546 10.6492 17.676 10.9999 17.676C11.3507 17.676 11.6801 17.546 11.939 17.2988L17.3813 11.857Z"
+                                    fill="#49250B" />
+                            </svg>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wristwatch-item3 col-lg-3 text-center">
+                    <img class="img-fluid" src="images/wristwatch-item3.png" alt="wristwatch-item1">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mainslider-wrap">
+        <div class="mainslider-inner">
+            <span class="pagingInfo"></span>
+            <div class="mega-slider">
+                <div>
+                    <div class="mega-bg">
+                        <img class="innerslider-bg img-fluid" src="images/car-bg.png" alt="">
+                    </div>
+                    <div class="mega-content">
+                        <span>collections1</span>
+                        <h2>Nicolet Swiss Made Triumph Chronograpgh/Date Timepiece</h2>
+                        <p>With the Nicolet Triumph we have spared no expense in bringing to life an all Swiss Made,
+                            limited edition masterpiece triple sub-dial chronograph with expanded date window focusing
+                            on great technical innovation in both case design and function with only 1886 pieces
+                            produced in each of 6 dial colors.</p>
+                        <div class="technical-inner slider product-items">
+                            <ul>
+                                <li><img src="images/case1.png" alt="case image"><p>44MM case size</p></li>
+                                <li><img src="images/clock1.png" alt="clock image"><p>Titanium and Stainless Steel</p></li>
+                                <li><img src="images/bezel1.png" alt="bezel image"><p>Titanium bezel</p></li>
+                                <li><img src="images/crystal1.png" alt="crystal image"><p>Sapphire crystal</p></li>
+                                <li><img src="images/strap1.png" alt="strap image"><p>Genuine Leather strap</p></li>
+                                <li><img src="images/wave1.png" alt="wave image"><p>20ATM water resistance</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="megaslider-inner">
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="megasliderinner-mini">
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Blue 10.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Red 1.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Green.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Orange.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Purple.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Yellow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mega-bg">
+                        <img class="innerslider-bg img-fluid" src="images/suits.png" alt="">
+                    </div>
+                    <div class="mega-content">
+                        <span>collections2</span>
+                        <h2>Nicolet Swiss Made Triumph Chronograpgh/Date Timepiece</h2>
+                        <p>With the Nicolet Triumph we have spared no expense in bringing to life an all Swiss Made,
+                            limited edition masterpiece triple sub-dial chronograph with expanded date window focusing
+                            on great technical innovation in both case design and function with only 1886 pieces
+                            produced in each of 6 dial colors.</p>
+                            <div class="technical-inner slider product-items">
+                                <ul>
+                                    <li><img src="images/case1.png" alt="case image"><p>44MM case size</p></li>
+                                    <li><img src="images/clock1.png" alt="clock image"><p>Titanium and Stainless Steel</p></li>
+                                    <li><img src="images/bezel1.png" alt="bezel image"><p>Titanium bezel</p></li>
+                                    <li><img src="images/crystal1.png" alt="crystal image"><p>Sapphire crystal</p></li>
+                                    <li><img src="images/strap1.png" alt="strap image"><p>Genuine Leather strap</p></li>
+                                    <li><img src="images/wave1.png" alt="wave image"><p>20ATM water resistance</p></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="megaslider-inner">
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="megasliderinner-mini">
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Blue 10.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Red 1.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Green.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Orange.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Purple.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Yellow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="mega-bg">
+                        <img class="innerslider-bg img-fluid" src="images/yacht.png" alt="">
+
+                    </div>
+                    <div class="mega-content">
+                        <span>collections3</span>
+                        <h2>Nicolet Swiss Made Triumph Chronograpgh/Date Timepiece</h2>
+                        <p>With the Nicolet Triumph we have spared no expense in bringing to life an all Swiss Made,
+                            limited edition masterpiece triple sub-dial chronograph with expanded date window focusing
+                            on great technical innovation in both case design and function with only 1886 pieces
+                            produced in each of 6 dial colors.</p>
+                            <div class="technical-inner slider product-items">
+                                <ul>
+                                    <li><img src="images/case1.png" alt="case image"><p>44MM case size</p></li>
+                                    <li><img src="images/clock1.png" alt="clock image"><p>Titanium and Stainless Steel</p></li>
+                                    <li><img src="images/bezel1.png" alt="bezel image"><p>Titanium bezel</p></li>
+                                    <li><img src="images/crystal1.png" alt="crystal image"><p>Sapphire crystal</p></li>
+                                    <li><img src="images/strap1.png" alt="strap image"><p>Genuine Leather strap</p></li>
+                                    <li><img src="images/wave1.png" alt="wave image"><p>20ATM water resistance</p></li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="megaslider-inner">
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="megasliderinner-wrap">
+                                <div class="megaslisderinner-image">
+                                    <img class="img-fluid" src="images/triumph-blue-big.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="megasliderinner-mini">
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Blue 10.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Red 1.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Green.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Orange.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Purple.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="round-watches">
+                                <img src="images/Yellow.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="megaslider-mini">
+                <div>
+                    <div class="watches-right">
+                        <img src="images/Green.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="watches-right">
+                        <img src="images/Green.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="watches-right">
+                        <img src="images/Green.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="add-cartbtn">
+                <a href="#">Add to Bag<img src="images/bag.png" alt=""></a>
+                <a href="#">Learn more<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="history-wrap">
+        <div class="container">
+            <div class="history-inner">
+                <h3>it all began in 1886</h3>
+                <p>Nicolet is a brand name synonymous with a rich watchmaking history that dates back more than 135
+                    years to 1886. The Nicolet family were well-known creators of exquisite timepieces with a keen focus
+                    on aesthetic beauty and technical innovation.</p>
+                <a href="" class="action-btn">Learn more<svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.6809 4.11845C11.4313 3.86875 11.0353 3.87859 10.7975 4.14109C10.5594 4.40359 10.5694 4.819 10.8191 5.06903L15.6134 9.84357H3.125C2.78 9.84357 2.5 10.1376 2.5 10.4998C2.5 10.8621 2.78 11.1561 3.125 11.1561H15.5934L10.8191 15.9309C10.5691 16.181 10.5594 16.5964 10.7975 16.8589C10.9203 16.9941 11.085 17.0623 11.25 17.0623C11.405 17.0623 11.56 17.0023 11.6809 16.8812L17.1337 11.4278C17.37 11.18 17.5 10.8506 17.5 10.4998C17.5 10.1491 17.37 9.81962 17.1228 9.56073L11.6809 4.11845Z"
+                            fill="white" />
+                    </svg></a>
+            </div>
+        </div>
+    </section>
+    <section class="newletter-wrap">
+        <div class="container">
+            <div class="newletter-inner">
+                <h4>newsletter</h4>
+                <p>Want to discover our latest news? <br>
+                    Subscribe to our newsletter and be the first to discover
+                    all news from Nicolet.</p>
+                <div class="email-wrap">
+                    <input type="email" placeholder="Email address"> <button type="submit"><svg width="20" height="21"
+                            viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.6809 4.11845C11.4313 3.86875 11.0353 3.87859 10.7975 4.14109C10.5594 4.40359 10.5694 4.819 10.8191 5.06903L15.6134 9.84357H3.125C2.78 9.84357 2.5 10.1376 2.5 10.4998C2.5 10.8621 2.78 11.1561 3.125 11.1561H15.5934L10.8191 15.9309C10.5691 16.181 10.5594 16.5964 10.7975 16.8589C10.9203 16.9941 11.085 17.0623 11.25 17.0623C11.405 17.0623 11.56 17.0023 11.6809 16.8812L17.1337 11.4278C17.37 11.18 17.5 10.8506 17.5 10.4998C17.5 10.1491 17.37 9.81962 17.1228 9.56073L11.6809 4.11845Z"
+                                fill="white" />
+                        </svg></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-top">
+                    <div class="footer-logo"><a href=""><img src="images/white-logo.svg" alt=""></a></div>
+                    <ul class="footer-links">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Watches</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">contact us</a></li>
+                    </ul>
+                    <ul class="footer-socails">
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <div class="anchor-targets">
+                        <a href="">Privacy Policy</a>
+                        <a href="">Terms of Use</a>
+                    </div>
+                    <div class="copywrite-wrap">
+                        <p>Copyright © 2021 Nicolet 1886. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+
+<body>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
